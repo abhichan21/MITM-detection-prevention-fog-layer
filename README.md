@@ -1,0 +1,6 @@
+# MITM-detection-prevention-fog-layer 
+Due to the large number of IOT devices available, data needed to be processed by cloud services providers has grown exponentially. This  leads to increase in the latency of cloud services and by extension latency in many IOT applications. 
+To  reduce this latency, computing devices are installed at the edge of the network close to the user. These devices are  called” Fog Nodes”. They allow the user to process some data without going all the way to the data centre. While the data centres are equipped with abundant resources ( i.e. processors, energy and memory), the fog devices are not. This means traditional techniques for preventing intrusion are not applicable at the fog level, because they will incur more latency and/or energy consumption. 
+Therefore, there is a need for low resource demanding, yet strong security system that will protect the fog layer from being attacked.
+This paper proposes an Intrusion Detection System( IDS) and Intrusion Prevention System (IPS) for Man in the Middle Attack at the FOG LAYER. The IDS consists of IDS nodes that periodically interrogate nodes one hop away. The IPS uses lightweight encryption to prevent Man in the Middle Attack and its variants.
+![image](https://user-images.githubusercontent.com/110028617/220083577-99381aff-56a6-4da0-8713-d62561ef45d9.png)
